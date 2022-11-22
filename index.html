@@ -7,18 +7,82 @@
     <title>MOUNTAIN - Hiking club</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./stylesheets/fonts.css">
-    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet" href="./stylesheets/import.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="left-block">
-        <p>Baloo2-Regular</p>
-    </div>
-    <div class="central-block">
+    <div class="flex-container">
+        <div class="flex-item left-block">
+            <div class="logo">
+                <img src="./assets//icons/header/logo/logo.svg" alt="logo">  
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li class="navigation__item">
+                        <div class="navigation__icon active">
+                            <img src="./assets/icons/sidebar/navigation/dashboard.svg" alt="dashboard">
+                        </div>
+                        <span class="navigation__text">Dashboard</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/notes.svg" alt="notes">
+                        </div>
+                        <span class="navigation__text">Note's</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/theme.svg" alt="theme">
+                        </div>
+                        <span class="navigation__text">Theme</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/account.svg" alt="account">
+                        </div>
+                        <span class="navigation__text">Account</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/explore.svg" alt="explore">
+                        </div>
+                        <span class="navigation__text">Explore</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/graph.svg" alt="graph">
+                        </div>
+                        <span class="navigation__text">Graph</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/messages.svg" alt="messages">
+                        </div>
+                        <span class="navigation__text">Messages</span>
+                    </li>
+                    <li class="navigation__item">
+                        <div class="navigation__icon">
+                            <img src="./assets/icons/sidebar/navigation/setting.svg" alt="setting">
+                        </div>
+                        <span class="navigation__text">Setting</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="log-out">
+                <img src="./assets/icons/sidebar/logout/logout.svg" alt="logout" class="log-out__img">
+                <span class="log-out__text">Sign Out</span>
+            </div>
+        </div>
+        <div class="flex-item central-block">
 
-    </div>
-    <div class="right-block">
+        </div>
+        <div class="flex-item right-block">
 
+        </div>
     </div>
 </body>
 </html>

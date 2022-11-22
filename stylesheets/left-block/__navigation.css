@@ -1,0 +1,20 @@
+.navigation__item {
+    display: flex;
+    flex-flow: row nowrap;  
+    align-items: center;  
+    margin-bottom: 20.9px;
+    list-style-type: none;
+}
+
+.navigation__icon {
+    display: inline-block;
+    padding: 22px 12px 14px 77px;
+    border-radius: 0px 31.5px 31.5px 0px;
+}
+
+.active {
+    margin-right: 15px;
+    padding-right: 27px;
+    background-color: #F9D44A;
+}
+
