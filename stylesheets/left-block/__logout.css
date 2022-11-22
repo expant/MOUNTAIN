@@ -1,6 +1,7 @@
 .log-out {
     margin-top: 185px;
     padding-left: 75px;
+    cursor: pointer;
 }
 
 .log-out__img {

@@ -1,0 +1,32 @@
+.search {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.search__input {
+    position: relative;
+    max-width: 668px;
+} 
+
+.search__input input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 14px;
+    background-color: #E9F1FA;
+    border: 0;
+    border-radius: 26.5px;
+}
+
+.search__icon,
+.search__input-text {
+    position: absolute;
+}
+
+
+.search__settings img {
+    padding: 15px;
+    background-color: #18333E;
+    border-radius: 50%;
+}

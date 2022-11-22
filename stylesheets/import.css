@@ -4,3 +4,6 @@
 @import url('./left-block/__logo.css');
 @import url('./left-block/__navigation.css');
 @import url('./left-block/__logout.css');
+
+/* central-block */
+@import url('./central-block/__search.css');
