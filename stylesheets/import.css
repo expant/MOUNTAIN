@@ -6,4 +6,8 @@
 @import url('./left-block/__logout.css');
 
 /* central-block */
-@import url('./central-block/__search.css');
+@import url('./central-block/search/search.css');
+@import url('./central-block/search/__input.css');
+@import url('./central-block/search/__settings.css');
+
+@import url('./central-block/cards/cards.css');
