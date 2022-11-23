@@ -1,0 +1,74 @@
+.discover-world__cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.discover-world__card {
+    flex: 1;
+}
+
+.discover-world__card-img {
+    position: relative;
+    height: 322px;
+    border-radius: 30px;
+}
+
+.discover-world__card-img::before {
+    content: url('../../../assets/icons/likes/like.svg');
+    position: absolute;
+    right: 29px;
+    top: 25px;
+    padding: 13px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(25px);
+    border-radius: 50%;
+    transition: background-color .2s;
+}
+
+.discover-world__card:nth-child(1) .discover-world__card-img {
+    background: url('../../../assets/images/__discover-world/img1.png') no-repeat;
+}
+
+.discover-world__card:nth-child(2) .discover-world__card-img {
+    background: url('../../../assets/images/__discover-world/img2.png') no-repeat;
+}
+
+.discover-world__card:nth-child(3) .discover-world__card-img {
+    background: url('../../../assets/images/__discover-world/img3.png') no-repeat;
+}
+
+.discover-world__card-title {
+    font-size: 22px;
+    color: #18333E;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    letter-spacing: 0.2px;
+}
+
+.discover-world__card-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.discover-world__card-location {
+    margin-right: 19px;
+}
+
+.card-info-img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.card-location-img {
+    width: 19px;
+}
+
+.card-stars-img {
+    width: 16px;
+}

@@ -1,0 +1,20 @@
+.discover-world__list {
+    margin-bottom: 38px;
+}
+
+.discover-world__list-item {
+    display: inline-block;
+    font-size: 16px;
+    color: #18333E;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.discover-world__list-item:hover {
+    opacity: 1;
+}
+
+.discover-world__list-item:not(.discover-world__list-item:last-child) {
+    margin-right: 55px;
+}

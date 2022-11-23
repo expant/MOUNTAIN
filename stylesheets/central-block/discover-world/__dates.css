@@ -1,0 +1,96 @@
+.dates {
+    margin-top: 58px;
+}
+
+.dates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dates-header__title {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+.dates-header__date {
+    letter-spacing: 0.1px;
+    margin-top: 4px;
+    padding: 10px 31px;
+    border: 1px solid #B4BCC4;
+    border-radius: 24px;
+}
+
+.list-of-dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 43px 0;
+}
+
+.list-of-dates__date {
+    text-align: center;
+    padding: 18px 21px;
+    background: #ffffff;
+    border-radius: 32px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .5s, background .5    s;
+}
+
+.list-of-dates__date:hover {
+    background: #18333E;
+    transform: scale(1.1);
+}
+
+.list-of-dates__date:hover .date-item {
+    color: #ffffff;
+}
+
+.list-of-dates__date:hover .stick {
+    visibility: visible;
+}
+
+.date-day {
+    color: #18333E;
+    opacity: 0.7;
+    margin-bottom: ;
+}
+
+.date-number {
+    font-size: 25px;
+}
+
+.active-date {
+    background: #18333E;
+}
+
+.active-date .date-item {
+    color: #ffffff;
+}
+
+.stick {
+    visibility: hidden;
+    width: 5px;
+    height: 8px;
+    margin: 0 auto;
+    margin-top: 2px;
+    background: #F9D44A;
+    border-radius: 13.5px;
+}
+
+.active-date .stick {
+    visibility: visible;
+}
+
+.list-of-dates .list-of-dates__date:first-child {
+    padding-left: 0;
+}
+
+.list-of-dates .list-of-dates__date:last-child {
+    padding-right: 0;
+}
+
+.list-of-dates .list-of-dates__date:first-child:hover {
+    padding-left: 21px;
+}
