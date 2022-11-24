@@ -1,8 +1,15 @@
 * {
+    font-size: 100%;
+    font-family: 'Baloo 2', cursive;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
+    border: 0;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	box-sizing: border-box;
 }
 
 .flex-container {
@@ -10,6 +17,7 @@
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 51px;
     color: #18333E;
 }
 

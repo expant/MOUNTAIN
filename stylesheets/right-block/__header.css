@@ -1,0 +1,27 @@
+.right-block__header,
+.right-block__header-avanoti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* style header location */
+.right-block__header-location {
+    padding: 8px 0;
+    padding-left: 37px;
+    border-left: 1px solid #B4BCC4;
+}
+
+.header-location-img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+/* style header notification */
+.header-notification {
+    margin-right: 33px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #B4BCC4;
+    padding-bottom: 7px;
+}

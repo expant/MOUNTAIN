@@ -23,7 +23,7 @@
     top: 25px;
     padding: 13px;
     padding-top: 14px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(25px);
     border-radius: 50%;
@@ -45,8 +45,8 @@
 .discover-world__card-title {
     font-size: 22px;
     color: #18333E;
-    margin-top: 20px;
-    margin-bottom: 7px;
+    margin-top: 27px;
+    margin-bottom: 17px;
     letter-spacing: 0.2px;
 }
 

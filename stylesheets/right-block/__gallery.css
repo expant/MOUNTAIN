@@ -1,0 +1,34 @@
+.right-block__gallery {
+    position: relative;
+    height: 290px;
+    background: url('../../assets/images/__brazil-forest/__gallery/main.png') no-repeat;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 29px 35px;
+}
+
+.right-block__gallery::before {
+    content: url(../../assets/icons/likes/like.svg);
+    position: absolute;
+    right: 27px;
+    top: 20px;
+    padding: 13px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    background: rgba(255, 255, 255, 0.6);
+   /* mask-image: url(../../assets/icons/likes/like.svg); */
+    backdrop-filter: blur(25px);
+    border-radius: 50%;
+    transition: background-color .2s;
+}
+
+.gallery-list {
+    display: flex;
+    gap: 12px;
+    margin-top: 161px;
+    padding: 12px 17px;
+    background: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(2.5px);
+    border-radius: 15px;
+}
+

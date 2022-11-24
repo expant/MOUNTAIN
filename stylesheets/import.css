@@ -1,3 +1,4 @@
+/*@import url('./reset.css');*/
 @import url('./styles.css');
 
 /* left-block css */
@@ -17,3 +18,11 @@
 @import url('./central-block/discover-world/__cards.css');
 @import url('./central-block/discover-world/__dates.css');
 @import url('./central-block/discover-world/__footer.css');
+
+/* right-block */
+@import url('./right-block/right-block.css');
+@import url('./right-block/__header.css');
+
+@import url('./right-block/__gallery.css');
+
+@import url('./right-block/__orders.css');

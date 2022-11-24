@@ -1,0 +1,42 @@
+.orders-description {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.orders-description-title {
+    font-size: 30px;
+    letter-spacing: 0.4px;
+}
+
+.orders-book-travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-text {
+    line-height: px;
+}
+
+.price-number {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.book-travel-button button {
+    font-size: 18px;
+    padding: 17px 40px;
+    padding-bottom: 16px;
+    letter-spacing: 0.5px;
+    background: #18333E;
+    border-radius: 30.5px;
+    border: 0;
+    color: #FFFFFF;
+    transition: color .2s, background .2s;
+    cursor: pointer;
+}   
+
+.book-travel-button button:hover {
+    color: #18333E;
+    background: #F9D44A;
+}
