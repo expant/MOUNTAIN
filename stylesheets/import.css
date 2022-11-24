@@ -1,6 +1,7 @@
 @import url('./styles.css');
 
 /* left-block css */
+@import url('./left-block/left-block.css');
 @import url('./left-block/__logo.css');
 @import url('./left-block/__navigation.css');
 @import url('./left-block/__logout.css');
@@ -15,3 +16,4 @@
 @import url('./central-block/discover-world/__list.css');
 @import url('./central-block/discover-world/__cards.css');
 @import url('./central-block/discover-world/__dates.css');
+@import url('./central-block/discover-world/__footer.css');
