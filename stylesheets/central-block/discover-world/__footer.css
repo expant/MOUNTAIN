@@ -7,13 +7,13 @@
 }
 
 .player {
-    max-width: 457px;
+    max-width: 411px;
     flex: 2;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 23px;
-    padding-bottom: 14px;
+    padding-bottom: 18px;
     background-color: #18333E;
     border-radius: 25px;
 }
@@ -29,13 +29,14 @@
 
 .player__text {
     margin-left: 29px;
-    margin-right: 91px;
+    margin-right: 88px;
 }
 
 .player__text-title {
     font-size: 18px;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     color: #ffffff;
+    letter-spacing: 0.2px;
 }
 
 .player__text-stars-img {

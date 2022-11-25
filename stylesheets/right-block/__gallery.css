@@ -1,10 +1,13 @@
 .right-block__gallery {
     position: relative;
+    width: 395px;
     height: 290px;
     background: url('../../assets/images/__brazil-forest/__gallery/main.png') no-repeat;
+    background-size: 100%;
+    background-position: center center;
     border-radius: 30px;
-    margin-top: 50px;
-    padding: 29px 35px;
+    margin-top: 54px;
+   /* padding: 29px 35px; */
 }
 
 .right-block__gallery::before {
@@ -23,9 +26,12 @@
 }
 
 .gallery-list {
+    position: absolute;
+    bottom: 29px;
+    left: 34px;
     display: flex;
     gap: 12px;
-    margin-top: 161px;
+   /* margin-top: 161px; */
     padding: 12px 17px;
     background: rgba(255, 255, 255, 0.32);
     backdrop-filter: blur(2.5px);

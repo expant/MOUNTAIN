@@ -30,7 +30,8 @@
 
 .list-of-dates__date {
     text-align: center;
-    padding: 18px 21px;
+    padding: 22px 21px;
+    padding-bottom: 26px;
     background: #ffffff;
     border-radius: 32px;
     cursor: pointer;
@@ -73,8 +74,7 @@
     visibility: hidden;
     width: 5px;
     height: 8px;
-    margin: 0 auto;
-    margin-top: 2px;
+    margin: 7px auto;
     background: #F9D44A;
     border-radius: 13.5px;
 }

@@ -1,11 +1,16 @@
 .orders-description {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 39px;
+    margin-bottom: 61px;
 }
 
 .orders-description-title {
     font-size: 30px;
     letter-spacing: 0.4px;
+    margin-bottom: 14px;
+}
+
+.orders-description-text {
+    line-height: 20.9px;
 }
 
 .orders-book-travel {
@@ -21,6 +26,7 @@
 .price-number {
     font-size: 40px;
     font-weight: 600;
+    margin-top: 8px;
 }
 
 .book-travel-button button {
