@@ -21,4 +21,8 @@ body {
     color: #18333E;
 }
 
+.flex-remove-padding {
+    display: flex;
+}
+
 

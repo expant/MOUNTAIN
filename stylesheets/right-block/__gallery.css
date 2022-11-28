@@ -6,18 +6,15 @@
     background-size: 100%;
     background-position: center center;
     border-radius: 30px;
-    margin-top: 54px;
+    margin-top: 58px;
    /* padding: 29px 35px; */
 }
 
-.right-block__gallery::before {
-    content: url(../../assets/icons/likes/like.svg);
+.gallery-like {
     position: absolute;
     right: 27px;
     top: 20px;
     padding: 13px;
-    padding-top: 14px;
-    padding-bottom: 6px;
     background: rgba(255, 255, 255, 0.6);
    /* mask-image: url(../../assets/icons/likes/like.svg); */
     backdrop-filter: blur(25px);

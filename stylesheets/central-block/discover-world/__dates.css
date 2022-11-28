@@ -35,13 +35,11 @@
     background: #ffffff;
     border-radius: 32px;
     cursor: pointer;
-    transform: scale(1);
-    transition: transform .5s, background .5    s;
+    transition: background .2s;
 }
 
 .list-of-dates__date:hover {
     background: #18333E;
-    transform: scale(1.1);
 }
 
 .list-of-dates__date:hover .date-item {
@@ -55,7 +53,6 @@
 .date-day {
     color: #18333E;
     opacity: 0.7;
-    margin-bottom: ;
 }
 
 .date-number {
@@ -83,13 +80,13 @@
     visibility: visible;
 }
 
-.list-of-dates .list-of-dates__date:first-child {
+/*.list-of-dates .list-of-dates__date:first-child {
     padding-left: 0;
 }
 
 .list-of-dates .list-of-dates__date:last-child {
     padding-right: 0;
-}
+}*/
 
 .list-of-dates .list-of-dates__date:first-child:hover {
     padding-left: 21px;

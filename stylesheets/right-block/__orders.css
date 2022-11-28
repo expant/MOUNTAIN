@@ -17,10 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.price-text {
-    line-height: px;
+    margin-bottom: 59px;
 }
 
 .price-number {
@@ -45,4 +42,52 @@
 .book-travel-button button:hover {
     color: #18333E;
     background: #F9D44A;
+}
+
+.orders-places,
+.orders-place,
+.orders-place-info {
+    display: flex;
+}
+
+.orders-places {
+    flex-direction: column;
+    gap: 40px;
+} 
+
+.orders-place {
+    justify-content: space-between;
+}
+
+.orders-place,
+.orders-place-info {
+    align-items: center;
+}
+
+.orders-place-info {
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.place-info-img img {
+    border-radius: 23px;
+}
+
+.place-info-title-text {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+.info-title-location-icon {
+    width: 19px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.orders-place-like-icon {
+    padding: 17px;
+    background: #E9F1FA;
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    margin-bottom: 3px;
 }
