@@ -55,6 +55,12 @@
     height: 49px;
     background: #F9D44A;
     border-radius: 13.5px;
+    transition: background .2s;
+    cursor: pointer;
+}
+
+.player__play:hover {
+    background: #ffffff;
 }
 
 .player__play::before,

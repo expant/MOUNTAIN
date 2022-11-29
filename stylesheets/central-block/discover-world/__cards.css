@@ -16,18 +16,14 @@
     border-radius: 30px;
 }
 
-.discover-world__card-img::before {
-    content: url('../../../assets/icons/likes/like.svg');
+.card-img-item {
     position: absolute;
     right: 29px;
     top: 25px;
     padding: 13px;
-    padding-top: 14px;
-    padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(25px);
     border-radius: 50%;
-    transition: background-color .2s;
 }
 
 .discover-world__card:nth-child(1) .discover-world__card-img {

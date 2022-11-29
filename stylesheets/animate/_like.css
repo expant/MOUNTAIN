@@ -1,0 +1,10 @@
+._like-animate {
+    transform: scale(1) rotate(0deg);
+    transition: all ease-out .3s;
+    cursor: pointer;
+}
+
+._like-animate:hover {
+    background: #F9D44A;
+    transform: scale(1.1) rotate(10deg);
+}

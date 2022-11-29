@@ -26,3 +26,6 @@
 @import url('./right-block/__gallery.css');
 
 @import url('./right-block/__orders.css');
+
+/* animate */
+@import url('./animate/_like.css');

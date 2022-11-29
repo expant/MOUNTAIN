@@ -17,11 +17,30 @@
     margin-right: 11px;
 }
 
+.header-location-text:hover {
+    color: #000000;
+}
+
 /* style header notification */
 .header-notification {
     margin-right: 33px;
     padding: 15px;
-    border-radius: 50%;
     border: 1px solid #B4BCC4;
     padding-bottom: 10px;
+}
+
+.header-notification,
+.header-avatar img {
+    border-radius: 50%;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.header-avatar img {
+    border: 1px solid #ffffff;
+}
+ 
+.header-notification:hover,
+.header-avatar img:hover {
+    border-color: #18333E;
 }
